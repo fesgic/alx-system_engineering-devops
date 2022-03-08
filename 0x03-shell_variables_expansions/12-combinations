@@ -1,0 +1,2 @@
+#!/bin/bash
+for i in {a..z}{a..z};do echo $i;done|sort|grep -v "oo"
