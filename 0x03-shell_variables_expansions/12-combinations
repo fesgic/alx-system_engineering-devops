@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in {a..z}{a..z};do echo $i;done|sort|grep -v "oo"
+echo -e {a..z}{a..z}"\n" | grep -v "oo"
